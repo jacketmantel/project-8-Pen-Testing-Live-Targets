@@ -1,3 +1,4 @@
+
 # Pen Testing Live Targets
 
 Time spent: 3 hours spent in total
@@ -23,8 +24,10 @@ Description:
 Vul #1: SQL injection takes place by replacing the id value associated with a salesperson with a ' OR SLEEP(5)=0--'. The Blue page takes 5 seconds to reload while the Green and Red pages are immediate.
 
 
-<img src="![chrome_R20FX3zLW3](https://user-images.githubusercontent.com/112223148/201550086-4d1ad216-ebc8-4c1f-92c7-51f2e143d8ed.gif)
-">
+
+
+![chrome_R20FX3zLW3](https://user-images.githubusercontent.com/112223148/201550086-4d1ad216-ebc8-4c1f-92c7-51f2e143d8ed.gif)
+"
 
 
 ## Green
@@ -35,8 +38,8 @@ Vulnerability #1: Cross-Site Scripting
 Description:
 Entering the name <script>alert('James found the XSS!');</script> in the contact/feedback form will execute the script when the staff views the feedback. As you can see, a previous student added a script to redirect to Google so my script will not be able to run.
 
-<img src="![chrome_cil9I24yTn](https://user-images.githubusercontent.com/112223148/201550213-3890c322-ea44-47be-bcce-78208915e90e.gif)
-">
+![chrome_cil9I24yTn](https://user-images.githubusercontent.com/112223148/201550213-3890c322-ea44-47be-bcce-78208915e90e.gif)
+
 
 
 ## Red
@@ -44,8 +47,11 @@ Entering the name <script>alert('James found the XSS!');</script> in the contact
 Vulnerability #1: Insecure Direct Object Reference
 Description:
 The error that the developer made is that he allowed for a hacker to input another id value at the top of the url. Id value 10 returns "Testy McTesterson".
-<img src="![chrome_kEAG6Spnb7](https://user-images.githubusercontent.com/112223148/201550176-f739c178-9590-471a-b28f-fb1ef82565cd.gif)
-">
+
+
+
+![chrome_kEAG6Spnb7](https://user-images.githubusercontent.com/112223148/201550176-f739c178-9590-471a-b28f-fb1ef82565cd.gif)
+
 
 
 ## Notes
